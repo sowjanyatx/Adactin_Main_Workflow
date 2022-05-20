@@ -1,0 +1,123 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="TestCase" sap2010:ExpressionActivityEditor.ExpressionActivityEditor="C#" sap:VirtualizedContainerService.HintSize="838,980.666666666667" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:a="clr-namespace:Adactin_Library;assembly=Adactin_Library" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:ra="clr-namespace:ReporterForUiPath.Activities;assembly=ReporterForUiPath.Activities" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=mscorlib" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Text</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Activities</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>Adactin_Library</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>System.Activities.DynamicUpdate</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Runtime.InteropServices</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+      <x:String>ReporterForUiPath.Activities</x:String>
+      <x:String>ReporterForUiPath.Enums</x:String>
+      <x:String>Testscenario</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.CSharp</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization</AssemblyReference>
+      <AssemblyReference>System.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.ServiceModel.Activities</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>Adactin_Library</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>System.Configuration.Install</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>ReporterForUiPath.Activities</AssemblyReference>
+      <AssemblyReference>ReporterForUiPath</AssemblyReference>
+      <AssemblyReference>Testscenario</AssemblyReference>
+      <AssemblyReference>Microsoft.Bcl.AsyncInterfaces</AssemblyReference>
+      <AssemblyReference>System.ValueTuple</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Composition</AssemblyReference>
+      <AssemblyReference>NPOI</AssemblyReference>
+      <AssemblyReference>System.Runtime.WindowsRuntime</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence sap:VirtualizedContainerService.HintSize="848,916" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <ra:StartSuite ContinueOnError="{x:Null}" suiteList="{x:Null}" DisplayName="Start Suite" sap:VirtualizedContainerService.HintSize="806,85.3333333333333" sap2010:WorkflowViewState.IdRef="StartSuite_1" SuiteName="Suite1" />
+    <ra:StartTest ContinueOnError="{x:Null}" TagName="{x:Null}" TestDescription="{x:Null}" testList="{x:Null}" DisplayName="Start Test" sap:VirtualizedContainerService.HintSize="806,85.3333333333333" sap2010:WorkflowViewState.IdRef="StartTest_1" Priority="Low" TestName="TC_101" />
+    <a:Adactin_Login sap:VirtualizedContainerService.HintSize="806,22" sap2010:WorkflowViewState.IdRef="Adactin_Login_2" Password="Achins@38" Username="Sachin9090" />
+    <Delay Duration="00:00:05" sap:VirtualizedContainerService.HintSize="806,22" sap2010:WorkflowViewState.IdRef="Delay_2" />
+    <uix:NCheckState Exists="{x:Null}" DisplayName="Check App State 'Welcome to'" sap:VirtualizedContainerService.HintSize="806,449.333333333333" sap2010:WorkflowViewState.IdRef="NCheckState_1" Version="V1">
+      <uix:NCheckState.IfExists>
+        <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="376,229.333333333333" sap2010:WorkflowViewState.IdRef="Sequence_2">
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+          <ra:StepStatus ActualResult="{x:Null}" CodeBlock="{x:Null}" ContinueOnError="{x:Null}" ExpectedResult="{x:Null}" statusInfo="{x:Null}" Description="Screen Opened" DisplayName="Step Status" sap:VirtualizedContainerService.HintSize="334,134.666666666667" sap2010:WorkflowViewState.IdRef="StepStatus_1" Name="Screen" Status="Pass" TakeScreenshot="True" />
+        </Sequence>
+      </uix:NCheckState.IfExists>
+      <uix:NCheckState.IfNotExists>
+        <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="376,229.333333333333" sap2010:WorkflowViewState.IdRef="Sequence_3">
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+          <ra:StepStatus ActualResult="{x:Null}" CodeBlock="{x:Null}" ContinueOnError="{x:Null}" ExpectedResult="{x:Null}" statusInfo="{x:Null}" Description="Screen Not opened" DisplayName="Step Status" sap:VirtualizedContainerService.HintSize="334,134.666666666667" sap2010:WorkflowViewState.IdRef="StepStatus_2" Name="screen" Status="Fail" TakeScreenshot="True" />
+        </Sequence>
+      </uix:NCheckState.IfNotExists>
+      <uix:NCheckState.Target>
+        <uix:TargetAnchorable BrowserURL="http://adactinhotelapp.com/SearchHotel.php" DesignTimeRectangle="11, 293, 428, 113" ElementType="Text" FriendlyName="'Welcome to'" FullSelectorArgument="&lt;webctrl idx='2' tag='TABLE' /&gt;&lt;webctrl isleaf='1' tableRow='1' tag='TD' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl isleaf='1' type='' tag='TD' class='welcome_menu' aaname='Welcome to Adactin Group of Hotels' check:innerText='Welcome to Adactin Group of Hotels' /&gt;" Guid="18526dea-4fde-46d6-a607-1329658f4f1c" ImageBase64="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" InformativeScreenshot="eb0fb1099c988bb7b808d067a5e27dd3.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Adactin.com - Search Hotel' /&gt;" SearchSteps="Selector" Visibility="Interactive" />
+      </uix:NCheckState.Target>
+    </uix:NCheckState>
+  </Sequence>
+</Activity>
