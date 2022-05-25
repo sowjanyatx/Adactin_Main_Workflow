@@ -7,12 +7,16 @@ trigger:
 - main
 
 pool:
-  vmImage: ubuntu-latest
+  Sowjanya
 
 steps:
 - script: echo Hello, world!
   displayName: 'Run a one-line script'
-
+- task: UiPathTest@2
+  inputs:
+    testTarget: 'TestSet'
+    orchestratorConnection: 'Con_Orc_Devops'
+    folderName: 'https://github.com/sowjanyatx/Adactin_Main_Workflow/'
 - script: |
     echo Add other tasks to build, test, and deploy your project.
     echo See https://aka.ms/yaml
