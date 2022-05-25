@@ -16,10 +16,6 @@ steps:
   inputs:
     testTarget: 'TestSet'
     orchestratorConnection: 'Con_Orc_Devops'
-    folderName: 'https://github.com/sowjanyatx/Adactin_Main_Workflow/- task: UiPathTest@2
-  inputs:
-    testTarget: 'TestSet'
-    orchestratorConnection: 'Con_Orc_Devops'
     testSet: 'Adactin_Main_Workflow'
     folderName: 'https://cloud.uipath.com/testiktvwwly/DefaultTenant/orchestrator_/'
 - script: |
