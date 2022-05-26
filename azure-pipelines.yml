@@ -7,7 +7,7 @@ trigger:
 - main
 
 pool:
-  Sowjanya adireddi
+  Sowjanya A
 
 steps:
 - script: echo Hello, world!
@@ -17,8 +17,9 @@ steps:
     echo Add other tasks to build, test, and deploy your project.
     echo See https://aka.ms/yaml
   displayName: 'Run a multi-line script'
-- task: UiPathTest@2
+- task: UiPathRunJob@2
   inputs:
-    testTarget: 'TestSet'
     orchestratorConnection: 'Con_Orc_Devops'
-    folderName: 'Adactin_Main_Workflow'
+    processName: 'Adactin_Main_Workflow'
+    folderName: 'sowjanya adireddi'
+  
