@@ -17,9 +17,5 @@ steps:
     echo Add other tasks to build, test, and deploy your project.
     echo See https://aka.ms/yaml
   displayName: 'Run a multi-line script'
-- task: UiPathRunJob@2
-  inputs:
-    orchestratorConnection: 'Con_Orc_Devops'
-    processName: 'Adactin_Main_Workflow'
-    folderName: 'IT Folder'
+
   
